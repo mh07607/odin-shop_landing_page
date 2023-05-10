@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.header{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    height: 50px;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    gap: 8px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
