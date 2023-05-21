@@ -71,6 +71,7 @@ button{
     font-weight: 700;
     border-radius: 4px;
     padding: 5px 20px;
+    box-shadow: none;
 }
 
 /* Mid/Testimonial section */
@@ -144,23 +145,26 @@ button{
 .call_to_action{
     display: flex;
     justify-content: center;
-    height: 300px;
+    align-items: center;
+    height: 275px;
+    color: #E5E7EB;
 }
 
 .call_to_action_box{
-    height: 100px;
-    width: auto;
+    height: 125px;
+    width: 1000px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    /* margin: 50px; */
-    /* padding: 50px 500px; */
-    /* border-radius: 12px;
+    justify-content: space-around;
     background-color: #3882F6;
-    display: flex;
-    justify-content: flex-start; */
+    border-radius: 12px;
 
 
+}
+
+.call_to_action_button{
+    border-radius: 8px;
+    border-color: #E5E7EB;
 }
 
 /* footer */
