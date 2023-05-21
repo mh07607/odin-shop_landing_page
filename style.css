@@ -5,19 +5,170 @@ body{
     justify-content: space-between; 
 }
 
+
+/* HEADER */
+
 .header{
     flex: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(241, 241, 241);
-    height: 50px;
+    /* height: 50px; */
+    min-height: 30px;
+    color: white;
+    background-color: #1f2937;
+    font-size: larger;
+}
+
+.menu{
+    margin: 0px 20px;
+}
+
+/* HERO */
+
+.banner{
     width: auto;
+    height: 400px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    gap: 30px;
+}
+
+#banner_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#banner_image{
+    max-width: 500px; 
+}
+
+#banner_heading{
+    max-width: 350px;
+}
+
+#banner_text{
+    max-width: 500px;
 }
 
 ul{
+    /* flex-grow: 1; */
     display: flex;
     gap: 8px;
-    margin: 0px;
+    margin: 0px 20px;
     padding: 0px;
     list-style: none;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+
+/* Mid/Testimonial section */
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    color: #1f2937;
+}
+
+.item_image{
+    max-width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.item_in_mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item_text{
+    max-width: 150px;
+    text-align: center;
+}
+
+#information_heading{
+    text-align: center;
+    font-weight:900;
+
+}
+
+/* Quote */
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    color: #1f2937;
+    padding: 50px;
+
+}
+
+.quote_text{
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    max-width: 1000px;
+    margin-bottom: 5px;
+    align-self: center;
+}
+
+.quote_author{
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-right: 450px;
+}
+
+/* Call to action */
+
+.call_to_action{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.call_to_action_box{
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 50px; */
+    /* padding: 50px 500px; */
+    /* border-radius: 12px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: flex-start; */
+
+
+}
+
+/* footer */
+.footer{
+    height: 40px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
